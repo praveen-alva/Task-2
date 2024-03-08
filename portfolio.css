@@ -1,0 +1,234 @@
+
+body {
+    /* background-color:black ; */
+    background-image: url('https://assets-global.website-files.com/6009ec8cda7f305645c9d91b/602f2052692cf988e4c783b6_601dce183e0010a314b36a0a_how-to-make-an-online-portfolio.jpeg');
+    background-blend-mode: darken;
+    /* background-size: cover; */
+}
+.nav-bar {
+    display: flex;
+    justify-content: end;
+    justify-content: space-around;
+    padding-inline: 50px;
+    font-size: 30px;
+    padding: 0 10px;
+}
+a {
+    position: relative;
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+
+}
+a:after {
+    content: "  ";
+    position: absolute;
+    background-color:red;
+    height: 3px;
+    width: 0;
+    left: 0;
+    bottom: -10px;
+    transition: 0.3s;
+}
+a:hover:after{
+    width: 100%;
+}
+
+.profile {
+    border: 5px solid rgb(0, 229, 255);
+    margin-top: 0px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.profile {
+    box-shadow: 0px 0px 5px 5px red;
+
+
+}
+.pic {
+    border-radius: 50%;
+}
+.heading {
+    color:rgb(0, 229, 255);
+    font-size: 40px;
+    font-family:sans-serif;
+}
+.heading {
+    margin: -10px;
+    margin-left: -100px;
+}
+.Home {
+    margin-top:90px ;
+    border: 1px solid grey;
+    height:570px;
+    width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.Home:hover:after {
+    content:"";
+    border: 1px solid red;
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left:0;
+    height: 100%;
+    width: 100%;
+    /* transition: 0.3s; */
+}
+.Home {
+    box-shadow: 5px 5px 5px 5px red
+}
+.icons {
+    display: flex;
+    flex-direction: column;
+}
+.icons {
+    margin-left: 900px;
+    padding-left: 150px;
+    padding-top: 100px;
+    align-items: center;
+}
+.FM {
+    color: aqua;
+    display: flex;
+    flex-direction: row;
+}
+.insta {
+    border: 2px solid rgb(0, 229, 255);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+} 
+
+.link {
+    border: 2px solid rgb(0, 229, 255);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    position: relative;
+    margin-top: 20px;
+  
+}
+.git {
+    border: 2px solid rgb(0, 229, 255);
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin-top: 15px;
+} 
+.content {
+    margin-top:700px ;
+    height:570px;
+    width: 500px;
+    position: absolute;
+    top: 300px;
+    left: 270px;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: blue;
+}
+.para {
+    display: flex;
+    flex-direction: row;
+    margin: 70px;
+    padding-left: -40px;
+    color:black;
+    font-style: italic;
+    font-family:cursive;
+}
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;  
+    margin: 0;
+    padding: 0;
+}
+.skill {
+    background-color:transparent;
+    text-transform: uppercase;
+
+}
+h1 {
+    text-align: center;
+}
+h3 {
+    margin: 5px;
+    color: rgb(255, 0, 140);
+    font-size: 20px;
+}
+.skill{
+    width: 500px;
+    margin: 60px auto;
+    color:black;
+    padding: 20px;
+    box-shadow:0 14px 24px rgba(0,0,0,0.25),0 10px 10px rgba(0,0,0,0.22);
+}
+.skill li {
+    margin: 20px 0;
+    padding:10px;
+}
+.bar {
+    background: rgba(0,0,0,0.22);
+    display: block;
+    height:20px;
+    border: 0px solid rgba(0,0,0,0.25);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow:0 1px 1px rgba(0,0,0,0.12),0 0px 0px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, .25, 1);    
+}
+.bar:hover {
+    box-shadow:0 14px 24px rgba(255,0,0),0 10px 10px rgba(0,0,0,0.22);
+
+
+}
+.bar span {
+
+    height: 20px;
+    float: left;
+    background: linear-gradient(13deq,rgba(236,4,0)0%),rgba(0,0,0,0.12)100%;
+    background:linear-gradient(skyblue,rgb(0, 183, 255));
+    /* background-coloR:rgb(210, 100, 237); */
+}
+.html {
+    width: 90%;
+    animation:html 3s;
+}
+.css {
+    width: 90%;
+    animation:css 3s;
+}
+.javascript {
+    width: 50%;
+    animation:javascript 3s;
+}
+.react {
+    width: 10%;
+    animation:react 3s;
+}
+.skill {
+    position: absolute;
+    top: 100%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    margin-top: 750px;
+}
